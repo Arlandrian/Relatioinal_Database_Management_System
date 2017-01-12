@@ -1,35 +1,14 @@
 /**
 @file
 Programming Languages fall2016 TermProject.
-
-Relational Database System :A system that user can create databases and tables or edit existing databases and tables...
-
-@author
-
-Name:				Numan Kemal Kazanci
-
-Student no: 		14011092
-
-Date:				04.12.2016
-
-E-Mail:				l1114092@std.yildiz.edu.tr
-
-Compiler used:		TDM-GCC 4.9.2 32-bit Release
-
-IDE:				Dev C++ 5.11
-
-Operating System:	Windows 10 64bit
 */
-
-
-
+Relational Database System :A system that user can create databases and tables or edit existing databases and tables...
 #include <stdio.h>
 #include <stdlib.h>
 #include "fun.h"
 #include "fun2.h"
 #include <string.h>
 
-//ftell dosyada indicatorun konumunu d�ndurur
 int main(int argc, char *argv[]) {
 	char main,menu2,menu3,where;
 	int i,selectedDatabase,selectedTable,selection,temp;
